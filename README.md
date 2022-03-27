@@ -1,6 +1,6 @@
 # spitch
 
-This whould be something good for music lovers?
+This whould be a something good for music lovers?
 
 ```bash
 npm run dev
