@@ -34,8 +34,8 @@ bower_components
 # node-waf configuration
 .lock-wscript
 
-# Compiled binary addons (https://nodejs.org/api/addons.html)
-build/Release
+# production
+/build
 
 # Dependency directories
 node_modules/
@@ -77,6 +77,7 @@ typings/
 
 # Next.js build output
 .next
+/out/
 
 # Nuxt.js build / generate output
 .nuxt
@@ -102,3 +103,15 @@ dist
 
 # TernJS port file
 .tern-port
+
+# testing
+/coverage
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
