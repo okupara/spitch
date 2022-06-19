@@ -1,0 +1,24 @@
+{
+  "name": "spitch",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okupara/spitch.git"
+  },
+  "author": "okupara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/okupara/spitch/issues"
+  },
+  "homepage": "https://github.com/okupara/spitch#readme",
+  "private": true,
+  "workspaces": [
+    "packages/ui",
+    "packages/nextjs-app"
+  ]
+}
