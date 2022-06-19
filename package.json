@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "npm run dev -w @spitch/nextjs-app",
+    "sb": "npm run storybook -w @spitch/ui",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
