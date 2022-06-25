@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build:ui": "npm run build -w @spitch/ui",
+    "clean:ui": "npm run clean -w @spitch/ui",
     "dev": "npm run dev -w @spitch/nextjs-app",
     "sb": "npm run storybook -w @spitch/ui",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,5 +24,9 @@
   "workspaces": [
     "packages/ui",
     "packages/nextjs-app"
-  ]
+  ],
+  "devDependencies": {
+    "@spitch/ui": "^0.0.1",
+    "typescript": "^4.7.4"
+  }
 }
