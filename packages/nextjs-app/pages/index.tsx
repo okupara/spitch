@@ -1,5 +1,6 @@
+import { Button } from "@spitch/ui"
 const Index = () => {
-  return <div>hello</div>
+  return <Button>hello</Button>
 }
 
 export default Index

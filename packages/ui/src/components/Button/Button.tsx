@@ -1,5 +1,5 @@
-import { PropsWithChildren } from "react"
+import React from "react"
 
-export const Button = ({ children }: PropsWithChildren) => {
+export const Button = ({ children }: React.PropsWithChildren) => {
   return <button>{children}</button>
 }
